@@ -1,6 +1,6 @@
 # Offline page example
 
-Show an error page when your website cannot be reached using a service worker.
+Show an error page when your website cannot be reached, using a service worker.
 
 ![](https://craigmerchant.github.io/offline-example/screenshare.gif)
 
