@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Could not load page</title>
+    <style type="text/css">
+    * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: sans-serif;
+        color: white;
+        background: #cc0000;
+        background: -moz-linear-gradient(top, #cc0000 0%, #cc0000 100%);
+        background: -webkit-linear-gradient(top, #cc0000 0%, #cc0000 100%);
+        background: linear-gradient(to bottom, #cc0000 0%, #cc0000 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc0000', endColorstr='#cc0000', GradientType=0);
+    }
+
+    .outer {
+        position: relative;
+        height: 100vh;
+    }
+
+    .container {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .container {
+        max-width: 767px;
+        width: 100%;
+        line-height: 1.4;
+        text-align: center;
+        padding: 15px;
+    }
+
+    h2 {
+        font-family: sans-serif;
+        font-size: 33px;
+        font-weight: 200;
+        text-transform: uppercase;
+        margin-top: 0px;
+        margin-bottom: 25px;
+        letter-spacing: 3px;
+    }
+
+    p {
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: 200;
+        margin-top: 0px;
+        margin-bottom: 25px;
+    }
+
+    a {
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        border-bottom: 1px solid white;
+    }
+    </style>
+    <script type="text/javascript">
+    function reload() {
+        location.reload();
+    }
+    </script>
+</head>
+
+<body>
+    <div class="outer">
+        <div class="container">
+            <h2>The page could not be loaded</h2>
+            <p>There was an error loading this page, please check your connection and <a href="javascript:reload()">reload the page</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
